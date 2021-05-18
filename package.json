@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of the application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Amy Marais",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "dotenv": "9.0.2",
+    "express": "4.17.1",
+    "helmet": "4.6.0",
+    "isomorphic-fetch": "3.0.0",
+    "nodemon": "2.0.7",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "8.4.0"
+  }
+}
