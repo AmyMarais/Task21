@@ -1,4 +1,4 @@
-/*basic styling*/
+/*styling*/
 html {
     scroll-behavior: smooth;
   }
@@ -96,16 +96,5 @@ hr {
     background-color: forestgreen;
 }
 
-/*footer*/
-footer {
-  font-family: Montserrat, sans-serif;
-    text-align: center;
-    margin:0 auto;
-    background-color: darkorange;
-    padding: 3rem;
-}
 
-.button-clicked {
-    color:red;
-}
 
