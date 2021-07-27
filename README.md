@@ -1,4 +1,4 @@
-# Task21
+# iTunes Search API with Reactjs and Express
 # Full Stack Web Application using React and Express
 * This project was part of the course I'm currently enrolled in at HyperionDev
 
